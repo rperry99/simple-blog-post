@@ -15,6 +15,7 @@
 
 body {
   background: var(--white);
+  position: relative;
 }
 
 /* Navigation *************************************************************** */
@@ -68,3 +69,33 @@ nav .latest-post a:hover {
   filter: brightness(110%);
 }
 /* End Navigation *********************************************************** */
+
+/* Social Sidebar *********************************************************** */
+#socials {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 10px;
+  border-radius: 0 10px 10px 0;
+  height: 250px;
+}
+
+#socials a {
+  color: var(--white);
+}
+
+#socials a svg {
+  height: 30px;
+  width: 30px;
+}
+
+#socials a:hover {
+  color: var(--accent);
+}
+/* End Social Sidebar ******************************************************* */
