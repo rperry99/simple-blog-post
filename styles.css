@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme&display=swap');
 
 :root {
   --white: #f5f5f5;
@@ -99,3 +100,15 @@ nav .latest-post a:hover {
   color: var(--accent);
 }
 /* End Social Sidebar ******************************************************* */
+
+/* Banner ******************************************************************* */
+#banner {
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+}
+#banner h1 {
+  color: var(--accent);
+  font-family: 'BioRhyme', sans-serif;
+}
+/* End Banner *************************************************************** */
